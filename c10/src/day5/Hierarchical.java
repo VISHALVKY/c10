@@ -1,20 +1,19 @@
 package day5;
 
-public class Hybrid 
+public class Hierarchical 
 {
 
 	public static void main(String[] args) 
 	{
-		Puppy p = new Puppy();
 		Cat c = new Cat();
+		Dog d = new Dog();
 		Tiger t = new Tiger();
-		
-		p.eat();
-		p.bark();
-		p.play();
 		
 		c.eat();
 		c.meow();
+		
+		d.eat();
+		d.bark();
 		
 		t.eat();
 		t.roar();

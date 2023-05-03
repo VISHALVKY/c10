@@ -1,10 +1,11 @@
 package day5;
 
-public class Puppy {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class Puppy extends Dog
+{
+	void play()
+	{
+		System.out.println("Play well...");
 	}
 
 }
